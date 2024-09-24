@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+@media screen and (max-width : 430px){
+    
+
+    .header{height: 80px;}
+    .log{display: none;}
+    .menu{display: none;}
+    .hamburger{display: block;}
+    .fix{display: none;}
+    .banner_sc{display: none;}
+    .main_list1 {
+        flex-direction: column; /* 수직 배치 */
+        align-items: center; /* 가운데 정렬 */
+        
+    }
+
+    .main_list_sub {
+        max-width: 100%; /* 항목이 전체 너비를 차지하도록 설정 */
+        margin: 50px 0;
+    }
+    
+    .popular{font-size: 30px; text-align: center;}
+
+    .pop{display: none;}
+    .s_section{display: block;}
+    .section{display: none;}
+
+
+    .fade .slick-dots li{display: inline-block; margin: 5px; }
+    .fade .slick-dots li button{background-color: #d1d1d1;border-radius: 50%;
+        border: none; width: 10px; height: 10px; text-indent: -9999px;
+        cursor: pointer;  z-index: 10000;}
+        .fade .slick-dots{position: absolute; z-index: 100;bottom: -20px; left: 50%;
+            transform: translateX(-50%);}
+}
